@@ -1,6 +1,8 @@
-.App {
-  text-align: center;
+.navbar, .footer {
+  background-color: #14213d;
+  color: white;
 }
 
-
-
+.p-2{
+  color: black;
+}
