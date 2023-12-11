@@ -1,8 +1,55 @@
 .navbar, .footer {
-  background-color: #14213d;
-  color: white;
+  background-image: url('https://i.pinimg.com/564x/04/61/e9/0461e91a732ec99abffaab158a1b7c04.jpg');
+
+  
+  color: yellow;
 }
 
 .p-2{
+  color: yellow;
+}
+
+.main{
+  /* background-image: url('https://i.pinimg.com/474x/48/96/fa/4896fa76902c5647cba721300d2b417c.jpg'); */
+  object-fit: cover;
+  color: yellow;
+}
+
+.card , .card1{
+ margin: 2em auto;
+ background-image: url('https://i.pinimg.com/474x/48/96/fa/4896fa76902c5647cba721300d2b417c.jpg');
+}
+
+.card-actions{
+  margin: 2em auto;
+  gap: 2em;
+}
+
+.card-actions1{
+  display: flex;
+  gap: 1em;
+  margin: 1em auto;
+  
+}
+
+.btn{
+  background-color: #14213d;
+color: yellow;
+}
+
+/* Addnewtopic */
+.card-title{
+  color: yellow;
+
+}
+
+.label-text{
+  color: yellow;
+}
+
+/* login */
+.carddd{
+  background-image: url('https://i.pinimg.com/474x/48/96/fa/4896fa76902c5647cba721300d2b417c.jpg');
+
   color: black;
 }

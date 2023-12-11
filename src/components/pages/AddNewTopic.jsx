@@ -77,7 +77,7 @@ function AddNewTopic() {
           {/* Add Screenshot */}
           <label className="form-control w-full max-w-xs">
             <div className="label">
-              <span className="label-text">Add Screenshot</span>
+              <span className="label-text">Add Screenshot</span>  
             </div>
             <input
               type="file"
@@ -88,7 +88,7 @@ function AddNewTopic() {
        <br />
        {/* Submit */}
         <div className="card-actions justify-center">
-          <button className="btn btn-primary ">Submit Now</button>
+          <button className="btn btn-block bg-white">Submit Now</button>
         </div>
 
 </label>
