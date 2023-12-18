@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="main">
+
       {/* card1 */}
       <div className="card w-96 h-48 bg-primary text-primary-content ">
         <div className="card-body">
@@ -12,7 +13,7 @@ function HomePage() {
 
           <div className="card-actions justify-end">
 
-            <Link to='/AddNewTopic' >
+            <Link to='/Addnewtask' >
             <button className="btn">Add New Topic</button>
             </Link>
 
@@ -33,15 +34,15 @@ function HomePage() {
 
             <div className="card-actions1">
 
-              <Link to= '/Excersies'>
-              <button className="btn">Excersises</button>
+              <Link to= '/CompletedTask'>
+              <button className="btn">Completed Topics</button>
               </Link>
 
               <Link to= '/Scheduled'>
               <button className="btn">Scheduled Task</button>
               </Link>
 
-              <Link to= '/DeletedTopics'>
+              <Link to= '/Deletetask'>
               <button className="btn">Deleted Topics</button>
               </Link>
             </div>
@@ -54,13 +55,11 @@ function HomePage() {
         <div className="card w-96 h-48 bg-primary text-primary-content ">
           <div className="card-body">
             <h2 className="card-title"></h2>
-
             <div className="card-actions justify-end">
                 <Link to='/SurpriseMe'>
               <button className="btn">Surprise Me</button>
               </Link>
               
-
             </div>
           </div>
         </div>
